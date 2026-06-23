@@ -2,9 +2,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./sections/About/About";
 import Education from "./sections/Education/Education";
-import Skills from "./sections/Skills/Skills";
-import Projects from "./sections/Projects/Projects";
-import Contact from "./sections/Contact/Contact";
+import Skills from "./sections/skills/Skills";
+import Projects from "./sections/projects/Projects";
+import Contact from "./sections/Contact/contact";
 
 function App() {
   return (
