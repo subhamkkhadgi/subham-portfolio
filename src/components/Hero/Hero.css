@@ -1,0 +1,102 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 16px;
+  max-width: 500px;
+}
+
+/* BUTTON CONTAINER */
+.buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+/* BASE BUTTON STYLE */
+.primary,
+.secondary {
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PRIMARY BUTTON (match secondary glass style) */
+.primary {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-weight: 600;
+}
+
+/* PRIMARY HOVER */
+.primary:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+}
+
+/* SECONDARY BUTTON (GLASS STYLE) */
+.secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-weight: 600;
+}
+
+/* SECONDARY HOVER */
+.secondary:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+}
+
+/* ACTIVE CLICK EFFECT */
+.primary:active,
+.secondary:active {
+  transform: scale(0.96);
+}
+
