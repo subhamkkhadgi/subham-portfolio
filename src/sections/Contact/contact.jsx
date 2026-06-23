@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./contact.css";
 import { api } from "../../services/api";
 import { useFetch } from "../../services/hooks";
 import StateMessage from "../../services/StateMessage";
